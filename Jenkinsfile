@@ -11,7 +11,7 @@ pipeline {
         IIS_SITE_NAME = "MyDotNetApp"
 
         // Project file
-        PROJECT_PATH = "MyDotNetApp/Indotalent.csproj"
+        PROJECT_PATH = "Indotalent.csproj"
     }
 
     stages {
@@ -77,4 +77,5 @@ pipeline {
         }
     }
 }
+
 
